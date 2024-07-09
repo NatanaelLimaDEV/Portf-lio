@@ -76,7 +76,7 @@ a{
     justify-content: center;
 }
 
-.principal{
+.principal, .foto-estilo{
     padding: 20px;
 }
 
@@ -91,22 +91,18 @@ a{
     font-size: 1em;
 }
 
-.foto-estilo{
-    padding: 20px;
-}
-
 .foto-estilo > img{
     width: 300px;
 }
 
 @media (max-width: 600px) {
-    .principal{
+    .principal, .foto-estilo{
         padding: 40px;
     }
 }
 
 @media (max-width: 510px) {
-    .principal{
+    .principal, .foto-estilo{
         padding: 80px;
     }
 
