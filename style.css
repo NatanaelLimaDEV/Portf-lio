@@ -100,22 +100,14 @@ a{
 }
 
 @media (max-width: 600px) {
-    .titulo-principal{
-        font-size: 1.8em;
-    }
-    
-    .texto-principal{
-        font-size: 0.8em;
+    .principal{
+        padding: 40px;
     }
 }
 
 @media (max-width: 510px) {
-    .titulo-principal{
-        font-size: 1.5em;
-    }
-    
-    .texto-principal{
-        font-size: 0.75em;
+    .principal{
+        padding: 60px;
     }
 
     .foto-estilo > img{
