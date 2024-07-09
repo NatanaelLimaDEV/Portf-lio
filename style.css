@@ -1,0 +1,139 @@
+@charset "UTF-8";
+
+:root{
+    --cor-texto-principal: #DAD7CD;
+    --fundo: #588157;
+    --cor-texto-sec: #344E41;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Ubuntu", sans-serif;
+    font-style: normal;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    background-color: white;
+}
+
+a{
+    text-decoration: none;
+}
+
+.cabecalho{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+.logo > img{
+    cursor: pointer;
+    width: 80px;
+    color: #dda15e;
+}
+
+.menu{
+    display: flex;
+    list-style: none;
+}
+
+.menu > li > a{
+    display: block;
+    padding: 10px;
+    font-size: 1.2em;
+    color: var(--fundo);
+}
+
+.menu > li > a:hover{
+    color: #dda15e;
+    transition-duration: 1s;
+}
+
+.conteiner{
+    background-color: var(--fundo);
+    color: var(--cor-texto-principal);
+    height: 80vh;
+    width: 90vw;
+    margin: 0 auto;
+    border-radius: 20px;
+
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.conteiner > div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.principal{
+    padding: 20px;
+}
+
+.titulo-principal{
+    font-weight: 700;
+    font-size: 2em;
+}
+
+.texto-principal{
+    color: #3A5A40;
+    font-weight: 300;
+    font-size: 1em;
+}
+
+.foto-estilo{
+    padding: 20px;
+}
+
+.foto-estilo > img{
+    width: 300px;
+}
+
+@media (max-width: 600px) {
+    .titulo-principal{
+        font-size: 1.8em;
+    }
+    
+    .texto-principal{
+        font-size: 0.8em;
+    }
+}
+
+@media (max-width: 510px) {
+    .titulo-principal{
+        font-size: 1.5em;
+    }
+    
+    .texto-principal{
+        font-size: 0.75em;
+    }
+
+    .foto-estilo > img{
+        width: 200px;
+    }
+}
+
+.descricao{
+    background-color: var(--cor-texto-principal);
+    color: var(--cor-texto-sec);
+    height: 300px;
+    display: block;
+}
+
+.descricao > p{
+    width: 350px;
+    text-align: left;
+    position: relative;
+    float: right;
+    margin: 70px 70px 0 0;
+}
