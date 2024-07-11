@@ -113,6 +113,19 @@ a{
     text-align: left;
 }
 
+.linha{
+    width: 400px;
+    height: 10px;
+    background-image: linear-gradient(to right, var(--cor-texto-destaque), var(--fundo));
+    margin: 20px 0;
+}
+
+.intro{
+    width: 400px;
+    font-size: 0.9em;
+    padding: 20px;
+}
+
 .foto-estilo > img{
     width: 300px;
 }
