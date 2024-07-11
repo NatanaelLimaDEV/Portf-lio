@@ -9,7 +9,6 @@ Desktop: 992px até 1200px
 Grandes telas: acima de 1200px */
 
 @media screen and (min-width: 768px) {
-
     #burguer{
         display: none;
     }
@@ -24,6 +23,12 @@ Grandes telas: acima de 1200px */
     }
 
     .foto-estilo > img{
-        width: 500px;
+        width: 300px;
+    }
+}
+
+@media screen and (min-width: 1120px) {
+    .foto-estilo > img{
+        width: 400px;
     }
 }

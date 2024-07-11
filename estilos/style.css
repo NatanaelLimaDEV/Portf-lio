@@ -71,7 +71,7 @@ a{
 .conteiner{
     background-color: var(--fundo);
     color: var(--cor-texto-principal);
-    height: 80vh;
+    height: 85vh;
     width: 90vw;
     margin: 0 auto;
     border-radius: 20px;
@@ -127,5 +127,5 @@ a{
 }
 
 .foto-estilo > img{
-    width: 300px;
+    width: 200px;
 }
