@@ -99,6 +99,7 @@ a{
     font-weight: 700;
     font-size: 2.5em;
     color: var(--cor-texto-principal);
+    text-align: left;
 }
 
 .titulo-principal-sec{
@@ -109,6 +110,7 @@ a{
     color: var(--cor-texto-subt);
     font-weight: 300;
     font-size: 1em;
+    text-align: left;
 }
 
 .foto-estilo > img{
