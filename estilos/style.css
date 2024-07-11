@@ -85,13 +85,13 @@ a{
 }
 
 .conteudo{
-    align-items: top;
+    padding: 30px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    align-items: center;
 }
 
-.conteudo > div{
+.conteudo > .principal{
     padding: 10px 30px;
 }
 
@@ -102,10 +102,6 @@ a{
     text-align: left;
 }
 
-.titulo-principal-sec{
-    color: var(--cor-texto-principal);
-}
-
 .texto-principal{
     color: var(--cor-texto-subt);
     font-weight: 300;
@@ -113,19 +109,11 @@ a{
     text-align: left;
 }
 
-.linha{
-    width: 200px;
-    height: 10px;
-    background-image: linear-gradient(to right, var(--cor-texto-destaque), var(--fundo));
-    margin: 20px 0;
-}
-
-.intro{
-    width: 400px;
-    font-size: 0.9em;
-    padding: 20px;
+.foto-estilo{
+    margin: auto;
+    padding: 30px;
 }
 
 .foto-estilo > img{
-    width: 200px;
+    width: 300px;
 }
