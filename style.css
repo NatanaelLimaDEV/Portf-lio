@@ -120,6 +120,11 @@ a{
     #menu{
         display: none;
     }
+
+    .cabecalho{
+        margin-left: 40px;
+        margin-right: 40px;
+    }
 }
 
 @media (max-width: 510px) {
