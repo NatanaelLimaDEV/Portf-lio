@@ -2,6 +2,7 @@
 
 :root{
     --cor-texto-principal: #DAD7CD;
+    --cor-texto-destaque: #dda15e;
     --fundo: #588157;
     --cor-texto-sec: #344E41;
 }
@@ -13,7 +14,7 @@
     font-style: normal;
 }
 
-body{
+body, html{
     height: 100vh;
     width: 100vw;
     background-color: white;
@@ -36,23 +37,32 @@ a{
 .logo > img{
     cursor: pointer;
     width: 80px;
-    color: #dda15e;
 }
 
-.menu{
+#burguer{
+    display: none;
+    cursor: pointer;
+    color: var(--fundo)
+}
+
+#menu{
+    display: block;
+}
+
+#menu > ul{
     display: flex;
     list-style: none;
 }
 
-.menu > li > a{
+#menu > ul > li > a{
     display: block;
     padding: 10px;
     font-size: 1.2em;
     color: var(--fundo);
 }
 
-.menu > li > a:hover{
-    color: #dda15e;
+#menu > ul > li > a:hover{
+    color: var(--cor-texto-destaque);
     transition-duration: 1s;
 }
 
@@ -83,12 +93,14 @@ a{
 .titulo-principal{
     font-weight: 700;
     font-size: 2em;
+    text-align: justify;
 }
 
 .texto-principal{
     color: #3A5A40;
     font-weight: 300;
     font-size: 1em;
+    text-align: justify;
 }
 
 .foto-estilo > img{
@@ -99,6 +111,14 @@ a{
     .principal, .foto-estilo{
         padding-left: 40px;
         padding-right: 40px;
+    }
+
+    #burguer{
+        display: block;
+    }
+
+    #menu{
+        display: none;
     }
 }
 
@@ -113,7 +133,7 @@ a{
     }
 }
 
-.descricao{
+/* .descricao{
     background-color: var(--cor-texto-principal);
     color: var(--cor-texto-sec);
     height: 300px;
@@ -126,4 +146,4 @@ a{
     position: relative;
     float: right;
     margin: 70px 70px 0 0;
-}
+} */
