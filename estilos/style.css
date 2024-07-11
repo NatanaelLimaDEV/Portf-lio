@@ -129,34 +129,3 @@ a{
 .foto-estilo > img{
     width: 300px;
 }
-
-@media screen and (max-width: 600px) {
-    /* .principal, .foto-estilo{
-        padding-left: 40px;
-        padding-right: 40px;
-    } */
-
-    /* #burguer{
-        display: block;
-    }
-
-    #menu{
-        display: none;
-    } */
-
-    /* .cabecalho{
-        margin-left: 40px;
-        margin-right: 40px;
-    } */
-}
-
-@media screen and (max-width: 510px) {
-    /* .principal, .foto-estilo{
-        padding-left: 80px;
-        padding-right: 80px;
-    } */
-
-    /* .foto-estilo > img{
-        width: 200px;
-    } */
-}
