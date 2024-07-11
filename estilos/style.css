@@ -5,6 +5,7 @@
     --cor-texto-destaque: #dda15e;
     --fundo: #588157;
     --cor-texto-sec: #344E41;
+    --cor-texto-subt: #415d43;
 }
 
 *{
@@ -94,14 +95,19 @@ a{
     padding: 10px 30px;
 }
 
-.titulo-principal{
+.titulo-principal, .titulo-principal-sec{
     font-weight: 700;
-    font-size: 2em;
+    font-size: 2.5em;
     text-align: center;
+    color: var(--cor-texto-principal);
+}
+
+.titulo-principal-sec{
+    color: var(--cor-texto-principal);
 }
 
 .texto-principal{
-    color: #3A5A40;
+    color: var(--cor-texto-subt);
     font-weight: 300;
     font-size: 1em;
     text-align: center;
