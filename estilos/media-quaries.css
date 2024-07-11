@@ -21,12 +21,30 @@ Grandes telas: acima de 1200px */
         margin-left: 80px;
         margin-right: 80px;
     }
+
+    .titulo-principal{
+        text-align: left;
+    }
+
+    .sub-principal{
+        text-align: left;
+    }
     
     .foto-estilo{
         padding: 30px 20px 0 20px;
     }
 
     .foto-estilo > img{
-        width: 300px;
+        width: 200px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .foto-estilo > img{
+        width: 400px;
+    }
+
+    .titulo-principal{
+        font-size: 2.5em;
     }
 }

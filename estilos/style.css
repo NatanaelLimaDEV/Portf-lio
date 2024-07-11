@@ -93,20 +93,21 @@ a{
 
 .conteudo > .principal{
     padding: 10px 30px;
+    margin: auto;
 }
 
-.titulo-principal, .titulo-principal-sec{
+.titulo-principal{
     font-weight: 700;
     font-size: 2em;
     color: var(--cor-texto-principal);
-    text-align: left;
+    text-align: center;
 }
 
-.texto-principal{
+.sub-principal{
     color: var(--cor-texto-subt);
     font-weight: 300;
     font-size: 1em;
-    text-align: left;
+    text-align: center;
 }
 
 .foto-estilo{
