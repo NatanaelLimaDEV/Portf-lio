@@ -23,14 +23,6 @@ Grandes telas: acima de 1200px */
         margin-right: 80px;
     }
 
-    .titulo-principal, .titulo-principal-sec{
-        text-align: left;
-    }
-    
-    .texto-principal{
-        text-align: left;
-    }
-
     .foto-estilo > img{
         width: 500px;
     }

@@ -98,7 +98,6 @@ a{
 .titulo-principal, .titulo-principal-sec{
     font-weight: 700;
     font-size: 2.5em;
-    text-align: center;
     color: var(--cor-texto-principal);
 }
 
@@ -110,7 +109,6 @@ a{
     color: var(--cor-texto-subt);
     font-weight: 300;
     font-size: 1em;
-    text-align: center;
 }
 
 .foto-estilo > img{
