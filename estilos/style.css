@@ -30,8 +30,8 @@ a{
     justify-content: space-between;
     align-items: center;
     padding: 20px;
-    margin-left: 80px;
-    margin-right: 80px;
+    margin-left: 40px;
+    margin-right: 40px;
 }
 
 .logo > img{
@@ -40,13 +40,14 @@ a{
 }
 
 #burguer{
-    display: none;
+    display: block;
     cursor: pointer;
-    color: var(--fundo)
+    color: var(--fundo);
+    padding: 10px;
 }
 
 #menu{
-    display: block;
+    display: none;
 }
 
 #menu > ul{
@@ -74,81 +75,69 @@ a{
     margin: 0 auto;
     border-radius: 20px;
 
+    
+
     align-items: center;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
 
-.conteiner > div{
+.conteudo{
+    align-items: center;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
 
-.principal, .foto-estilo{
-    padding: 20px;
+.conteudo > div{
+    padding: 10px 30px;
 }
 
 .titulo-principal{
     font-weight: 700;
     font-size: 2em;
-    text-align: justify;
+    text-align: center;
 }
 
 .texto-principal{
     color: #3A5A40;
     font-weight: 300;
     font-size: 1em;
-    text-align: justify;
+    text-align: center;
 }
 
 .foto-estilo > img{
     width: 300px;
 }
 
-@media (max-width: 600px) {
-    .principal, .foto-estilo{
+@media screen and (max-width: 600px) {
+    /* .principal, .foto-estilo{
         padding-left: 40px;
         padding-right: 40px;
-    }
+    } */
 
-    #burguer{
+    /* #burguer{
         display: block;
     }
 
     #menu{
         display: none;
-    }
+    } */
 
-    .cabecalho{
+    /* .cabecalho{
         margin-left: 40px;
         margin-right: 40px;
-    }
+    } */
 }
 
-@media (max-width: 510px) {
-    .principal, .foto-estilo{
+@media screen and (max-width: 510px) {
+    /* .principal, .foto-estilo{
         padding-left: 80px;
         padding-right: 80px;
-    }
+    } */
 
-    .foto-estilo > img{
+    /* .foto-estilo > img{
         width: 200px;
-    }
+    } */
 }
-
-/* .descricao{
-    background-color: var(--cor-texto-principal);
-    color: var(--cor-texto-sec);
-    height: 300px;
-    display: block;
-}
-
-.descricao > p{
-    width: 350px;
-    text-align: left;
-    position: relative;
-    float: right;
-    margin: 70px 70px 0 0;
-} */
