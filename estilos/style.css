@@ -71,9 +71,10 @@ a{
 .conteiner{
     background-color: var(--fundo);
     color: var(--cor-texto-principal);
-    height: 88vh;
-    width: 100vw;
+    height: 85vh;
+    width: 90vw;
     margin: 0 auto;
+    border-radius: 20px;
 
     
 

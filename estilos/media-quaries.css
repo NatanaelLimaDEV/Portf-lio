@@ -22,13 +22,6 @@ Grandes telas: acima de 1200px */
         margin-right: 80px;
     }
 
-    .conteiner{
-        height: 85vh;
-        width: 90vw;
-        margin: 0 auto;
-        border-radius: 20px;
-    }
-
     .titulo-principal{
         text-align: left;
     }
