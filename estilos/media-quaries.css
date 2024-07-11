@@ -23,13 +23,6 @@ Grandes telas: acima de 1200px */
         margin-right: 80px;
     }
 
-    .conteudo{
-        align-items: top;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-
     .titulo-principal{
         text-align: left;
     }
