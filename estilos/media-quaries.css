@@ -22,13 +22,11 @@ Grandes telas: acima de 1200px */
         margin-right: 80px;
     }
 
+    .linha{
+        width: 400px;
+    }
+
     .foto-estilo > img{
         width: 300px;
-    }
-}
-
-@media screen and (min-width: 1120px) {
-    .foto-estilo > img{
-        width: 400px;
     }
 }
