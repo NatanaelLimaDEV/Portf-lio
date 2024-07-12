@@ -18,28 +18,15 @@ Grandes telas: acima de 1200px */
     }
 
     .cabecalho{
-        margin-left: 80px;
-        margin-right: 80px;
-    }
-
-    .titulo-principal{
-        text-align: left;
-    }
-
-    .sub-principal{
-        text-align: left;
-    }
-    
-    .foto-estilo{
-        padding: 30px 20px 0 20px;
-    }
-
-    .foto-estilo > img{
-        width: 200px;
+        padding: 20px 80px;
     }
 }
 
 @media screen and (min-width: 992px) {
+    .cabecalho{
+        padding: 20px 100px;
+    }
+
     .foto-estilo > img{
         width: 400px;
     }

@@ -15,7 +15,10 @@
     font-style: normal;
 }
 
-body, html{
+body{
+    display: flex;
+    flex-direction: column;
+
     height: 100vh;
     width: 100vw;
     background-color: white;
@@ -27,12 +30,10 @@ a{
 
 .cabecalho{
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
-    margin-left: 40px;
-    margin-right: 40px;
+    padding: 20px 80px;
 }
 
 .logo > img{
@@ -44,7 +45,6 @@ a{
     display: block;
     cursor: pointer;
     color: var(--fundo);
-    padding: 10px;
 }
 
 #menu{
@@ -53,64 +53,62 @@ a{
 
 #menu > ul{
     display: flex;
+    flex-wrap: nowrap;
+    gap: 20px;
     list-style: none;
 }
 
 #menu > ul > li > a{
     display: block;
-    padding: 10px;
     font-size: 1.2em;
+    font-weight: 400;
     color: var(--fundo);
 }
 
 #menu > ul > li > a:hover{
     color: var(--cor-texto-destaque);
-    transition-duration: 1s;
+    transition-duration: 0.5s;
 }
 
 .conteiner{
-    background-color: var(--fundo);
-    color: var(--cor-texto-principal);
-    height: 85vh;
-    width: 90vw;
-    margin: 0 auto;
-    border-radius: 20px;
-
-    align-items: center;
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     justify-content: center;
+    align-items: center;
 }
 
 .conteudo{
-    padding: 30px;
+    height: 85vh;
+    width: 90vw;
+    background-color: var(--fundo);
+    color: var(--cor-texto-principal);
+    border-radius: 20px;
+    margin: 0 40px;
+    padding: 0 20px;
+
     display: flex;
     flex-wrap: wrap;
     align-items: center;
+    align-content: space-evenly;
+    justify-content: space-evenly;
 }
 
-.conteudo > .principal{
-    padding: 10px 30px;
-    margin: auto;
+.principal{
+    padding-bottom: 20px;
 }
 
 .titulo-principal{
     font-weight: 700;
     font-size: 2em;
     color: var(--cor-texto-principal);
-    text-align: center;
+    text-align: left;
 }
 
 .sub-principal{
     color: var(--cor-texto-subt);
     font-weight: 300;
     font-size: 1em;
-    text-align: center;
-}
-
-.foto-estilo{
-    margin: auto;
-    padding: 30px;
+    text-align: left;
 }
 
 .foto-estilo > img{
