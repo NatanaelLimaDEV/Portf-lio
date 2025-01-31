@@ -31,7 +31,7 @@ a{
 .cabecalho{
     display: flex;
     flex-wrap: nowrap;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     padding: 20px 80px;
 }
@@ -39,35 +39,6 @@ a{
 .logo > img{
     cursor: pointer;
     width: 80px;
-}
-
-#burguer{
-    display: block;
-    cursor: pointer;
-    color: var(--fundo);
-}
-
-#menu{
-    display: none;
-}
-
-#menu > ul{
-    display: flex;
-    flex-wrap: nowrap;
-    gap: 20px;
-    list-style: none;
-}
-
-#menu > ul > li > a{
-    display: block;
-    font-size: 1.2em;
-    font-weight: 400;
-    color: var(--fundo);
-}
-
-#menu > ul > li > a:hover{
-    color: var(--cor-texto-destaque);
-    transition-duration: 0.5s;
 }
 
 .conteiner{
